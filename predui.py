@@ -20,9 +20,9 @@ model = load_model('violence_detection_model_best.h5', compile=False)
 model.compile(optimizer=Adam(), loss='binary_crossentropy', metrics=['accuracy'])
 
 # Email configuration
-EMAIL_ADDRESS = "varunkpvkp2003@gmail.com"  # Replace with your email
-EMAIL_PASSWORD = "oqeenudjtgvsrqld"  # Replace with your password
-RECIPIENT_EMAIL = "rohankp24@gmail.com"  # Replace with recipient email
+EMAIL_ADDRESS =""  # Replace with your email
+EMAIL_PASSWORD = ""  # Replace with your password
+RECIPIENT_EMAIL = ""  # Replace with recipient email
 
 # Initialize variables
 violence_counter = 0
